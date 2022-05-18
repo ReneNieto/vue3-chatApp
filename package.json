@@ -1,0 +1,33 @@
+{
+  "name": "vue3-chatapp",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 5050",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@formkit/vue": "^1.0.0-beta.8",
+    "ky": "^0.30.0",
+    "pinia": "^2.0.14",
+    "vue": "^3.2.33",
+    "vue-profile-avatar": "^1.0.2",
+    "vue-router": "^4.0.15",
+    "vue3-emoji-picker": "^1.1.2"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "laravel-echo": "^1.11.7",
+    "postcss": "^8.4.13",
+    "prettier": "^2.5.1",
+    "pusher-js": "^7.1.0-beta",
+    "tailwindcss": "^3.0.24",
+    "vite": "^2.9.5"
+  }
+}
